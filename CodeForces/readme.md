@@ -16,6 +16,14 @@ Submitting as: Go 1.22.2
 Submit problem.java  
 Submitting as: Java 21 64bit
 
+# Perl
+Submit problem.pl  
+Submitting as: Perl 5.20.1
+
+# PHP
+Submit problem.php  
+Submitting as: PHP 8.1.7
+
 # Python
 Submit problem.py  
 Submitting as: PyPy 3.10 (7.3.15, 64bit)

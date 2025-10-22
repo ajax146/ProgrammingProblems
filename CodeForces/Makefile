@@ -13,6 +13,7 @@ java:
 	javac ./$(problem)/Main.java
 	mv ./$(problem)/Main.java ./$(problem)/$(problem).java
 	java -cp ./$(problem) Main
+	mv ./$(problem)/Main.class ./$(problem)/$(problem).class
 	
 typescript:
 	cd ./$(problem) && \

@@ -36,3 +36,9 @@ cpp:
 rust:
 	rustc ./$(problem)/$(problem).rs -o ./$(problem)/$(problem).rustc
 	./$(problem)/$(problem).rustc
+
+perl:
+	perl ./$(problem)/$(problem).pl
+
+php:
+	php ./$(problem)/$(problem).php

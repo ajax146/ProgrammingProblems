@@ -1,3 +1,17 @@
+# Meta folder, no need to commit this.
+*/_META
+
+# Exclude compiled versions
 *.class
 *.exe
-*/_META
+*.js
+*.cppexe
+*.rustc
+
+# Don't push node stuff
+node_modules/
+**/node_modules/
+package-lock.json
+**/package-lock.json
+package.json
+**/package.json

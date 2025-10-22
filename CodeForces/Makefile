@@ -14,3 +14,24 @@ java:
 	mv ./$(problem)/Main.java ./$(problem)/$(problem).java
 	java -cp ./$(problem) Main
 	
+typescript:
+	cd ./$(problem) && \
+	npm install --save-dev typescript @types/node && \
+	npx tsc $(problem).ts && \
+	echo "READY" && \
+	node $(problem).js && \
+	rm -rf node_modules package-lock.json package.json
+
+swift:
+	swift ./$(problem)/$(problem).swift
+
+ruby:
+	ruby ./$(problem)/$(problem).rb
+
+cpp:
+	g++ -std=c++23 ./$(problem)/$(problem).cpp -o ./$(problem)/$(problem).cppexe
+	./$(problem)/$(problem).cppexe
+
+rust:
+	rustc ./$(problem)/$(problem).rs -o ./$(problem)/$(problem).rustc
+	./$(problem)/$(problem).rustc

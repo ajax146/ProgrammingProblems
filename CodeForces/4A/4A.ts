@@ -1,12 +1,11 @@
-import * as readline from 'readline';
+import * as readline from 'node:readline/promises';
+import { stdin as input, stdout as output } from 'node:process';
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+async function main() {
+    const rl = readline.createInterface({ input, output });
 
-rl.question('', (answer: string) => {
-    const w: number = parseInt(answer.trim(), 10);
+    const line: string = await rl.question('');
+    const w: number = parseInt(line.trim(), 10);
 
     if (w > 2 && w % 2 === 0) {
         console.log("YES");
@@ -15,4 +14,6 @@ rl.question('', (answer: string) => {
     }
 
     rl.close();
-});
+}
+
+main();

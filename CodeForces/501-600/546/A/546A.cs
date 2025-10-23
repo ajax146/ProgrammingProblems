@@ -1,10 +1,7 @@
 using System;
 
-class Program
-{
-    static void Main()
-    {
-
+class Program {
+    static void Main() {
         string all_input = Console.ReadLine();
         string[] parts = all_input.Split(' ');
 
@@ -16,6 +13,5 @@ class Program
         int total_cost = k * total_cost_multi;
 
         Console.WriteLine(Math.Max(total_cost-n, 0));
-
     }
 }

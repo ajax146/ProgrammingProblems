@@ -1,10 +1,10 @@
 # Problems 101-200
 
-Total problems with at least one solution: **8**
+Total problems with at least one solution: **9**
 
 ## Solutions per language
 
-- Python: 4
+- Python: 5
 - Ruby: 2
 - C#: 1
 - C++: 1

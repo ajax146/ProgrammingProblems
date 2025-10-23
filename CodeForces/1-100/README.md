@@ -1,14 +1,14 @@
 # Problems 1-100
 
-Total problems with at least one solution: **4**
+Total problems with at least one solution: **5**
 
 ## Solutions per language
 
-- Python: 4
+- Python: 5
+- PHP: 3
 - C++: 2
 - Go: 2
 - Java: 2
-- PHP: 2
 - C#: 1
 - Perl: 1
 - Ruby: 1

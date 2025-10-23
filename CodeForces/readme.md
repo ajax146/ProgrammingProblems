@@ -40,5 +40,5 @@ Submitting as: Rust 1.89.0 (2024)
 Unsupported on codeforces
 
 # Typescript
-Submit problem.js  
+Submit problem.ts_c  
 Submitting as: Node.js 15.8.0 (64bit)

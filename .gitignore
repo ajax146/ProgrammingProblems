@@ -2,11 +2,11 @@
 */_META
 
 # Exclude compiled versions
-*.class
-*.exe
-*.js
-*.cppexe
-*.rustc
+*.cpp_c
+*.cs_c
+*.java_c
+*.rs_c
+*.ts_c
 
 # Don't push node stuff
 node_modules/

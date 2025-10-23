@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Usage: bash execute.sh {language} {problem}
-# Example: bash execute.sh rust 4A
+# Example: bash execute.sh rs 4A
 
 lang="$1"
 problem="$2"

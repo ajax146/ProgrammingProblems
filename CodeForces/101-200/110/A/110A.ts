@@ -14,8 +14,7 @@ async function main() {
             count += 1;
         }
     }
-    let count_str: string = String(count);
-    if (count_str.replace("4", "").replace("7", "").length == 0) {
+    if (count == 4 || count == 7) {
         console.log("YES");
     } else {
         console.log("NO");

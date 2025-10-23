@@ -11,8 +11,6 @@ fn main() {
     let clone = nums[0];
     let original = nums[1];
 
-
-
     // We can never make more originals than clones
     if (original-1) > clone {
         println!("NO");

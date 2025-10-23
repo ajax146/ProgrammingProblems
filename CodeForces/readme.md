@@ -21,6 +21,7 @@ Submit problem.pl
 Submitting as: Perl 5.20.1
 
 # PHP
+### This is technically supported but not functional on the site
 Submit problem.php  
 Submitting as: PHP 8.1.7
 
@@ -40,5 +41,6 @@ Submitting as: Rust 1.89.0 (2024)
 Unsupported on codeforces
 
 # Typescript
+### This is technically UNsupported, and the ts->js compile doesn't work on the codeforces engine without issues
 Submit problem.ts_c  
 Submitting as: Node.js 15.8.0 (64bit)

@@ -8,6 +8,10 @@
 *.rs_c
 *.ts_c
 
+# Just in case things go wrong
+*.class
+*.js
+
 # Don't push node stuff
 node_modules/
 **/node_modules/

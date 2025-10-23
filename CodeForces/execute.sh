@@ -10,8 +10,16 @@ if [[ -z "$lang" || -z "$problem" ]]; then
   exit 1
 fi
 
-# Figure out folder range
+# Parse problem number and letter
 num=$(echo "$problem" | grep -oE '^[0-9]+')
+suffix=$(echo "$problem" | sed -E "s/^[0-9]+//")
+
+if [[ -z "$num" || -z "$suffix" ]]; then
+  echo "Invalid problem format. Example: 953B or 2164B2"
+  exit 1
+fi
+
+# Determine folder range
 start=$(( ((num - 1) / 100) * 100 + 1 ))
 end=$(( start + 99 ))
 if (( num >= 2001 )); then
@@ -20,11 +28,10 @@ if (( num >= 2001 )); then
 fi
 range="${start}-${end}"
 
-# Compute base path (e.g. 901-1000/953/B)
-letter=$(echo "$problem" | grep -oE '[A-Z]$')
-path="${range}/${num}/${letter}"
+# Compute base path (e.g. 901-1000/953/B2)
+path="${range}/${num}/${suffix}"
 
-# Verify folder exists
+# Make sure the path exists
 if [[ ! -d "$path" ]]; then
   echo "Directory not found: $path"
   exit 1

@@ -1,10 +1,10 @@
 # Problems 501-600
 
-Total problems with at least one solution: **2**
+Total problems with at least one solution: **3**
 
 ## Solutions per language
 
-- C#: 1
+- C#: 2
 - Go: 1
 - C++: 0
 - Java: 0

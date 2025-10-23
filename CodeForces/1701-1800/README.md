@@ -1,11 +1,11 @@
 # Problems 1701-1800
 
-Total problems with at least one solution: **1**
+Total problems with at least one solution: **2**
 
 ## Solutions per language
 
+- C#: 1
 - Python: 1
-- C#: 0
 - C++: 0
 - Go: 0
 - Java: 0

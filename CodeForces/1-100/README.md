@@ -6,10 +6,10 @@ Total problems with at least one solution: **5**
 
 - Python: 5
 - PHP: 3
+- C#: 2
 - C++: 2
 - Go: 2
 - Java: 2
-- C#: 1
 - Perl: 1
 - Ruby: 1
 - Rust: 1

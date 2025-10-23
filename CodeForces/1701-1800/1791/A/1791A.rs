@@ -10,14 +10,12 @@ fn main() {
     for _ in 0..w {
         let mut line = String::new();
         io::stdin().read_line(&mut line).unwrap();
+        let ch = line.trim().chars().next().unwrap();
 
-        // Take first non-whitespace character
-        if let Some(ch) = line.trim().chars().next() {
-            if ans_str.find(ch).is_some() {
-                println!("YES");
-            } else {
-                println!("NO");
-            }
+        if ans_str.contains(ch) {
+            println!("YES");
+        } else {
+            println!("NO");
         }
     }
 }

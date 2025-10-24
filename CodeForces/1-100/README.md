@@ -5,13 +5,13 @@ Total problems with at least one solution: **6**
 ## Solutions per language
 
 - Python: 6
+- TypeScript: 4
 - PHP: 3
 - C#: 2
 - C++: 2
 - Go: 2
 - Java: 2
 - Perl: 2
-- Ruby: 1
+- Ruby: 2
 - Rust: 1
 - Swift: 1
-- TypeScript: 1

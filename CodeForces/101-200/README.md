@@ -7,10 +7,10 @@ Total problems with at least one solution: **9**
 - Python: 5
 - Go: 2
 - Ruby: 2
+- TypeScript: 2
 - C#: 1
 - C++: 1
 - Java: 1
-- TypeScript: 1
 - PHP: 0
 - Perl: 0
 - Rust: 0

@@ -1,3 +1,10 @@
+// Problem 427A: Police Recruits
+// https://codeforces.com/contest/427/problem/A
+// Compiled with: rustc 1.63.0
+// Linux version: Linux kernel 6.1.0-10-amd64
+// Submitted on: October 23rd, 2025
+// Codeforces language used: Rust 1.89.0 (2024)
+
 use std::io;
 
 fn main() {

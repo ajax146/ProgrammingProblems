@@ -1,11 +1,11 @@
 # Problems 1701-1800
 
-Total problems with at least one solution: **3**
+Total problems with at least one solution: **4**
 
 ## Solutions per language
 
+- Python: 2
 - C#: 1
-- Python: 1
 - Rust: 1
 - C++: 0
 - Go: 0

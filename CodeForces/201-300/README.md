@@ -1,10 +1,10 @@
 # Problems 201-300
 
-Total problems with at least one solution: **5**
+Total problems with at least one solution: **9**
 
 ## Solutions per language
 
-- Python: 3
+- Python: 8
 - C#: 2
 - Java: 1
 - Swift: 1

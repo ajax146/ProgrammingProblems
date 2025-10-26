@@ -1,12 +1,12 @@
 # Problems 301-400
 
-Total problems with at least one solution: **3**
+Total problems with at least one solution: **6**
 
 ## Solutions per language
 
+- Python: 4
 - Java: 1
 - PHP: 1
-- Python: 1
 - Rust: 1
 - Swift: 1
 - C#: 0

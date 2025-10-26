@@ -1,10 +1,10 @@
 # Problems 101-200
 
-Total problems with at least one solution: **9**
+Total problems with at least one solution: **12**
 
 ## Solutions per language
 
-- Python: 5
+- Python: 9
 - Go: 3
 - C++: 2
 - PHP: 2

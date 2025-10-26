@@ -1,10 +1,10 @@
 # Problems 1601-1700
 
-Total problems with at least one solution: **2**
+Total problems with at least one solution: **4**
 
 ## Solutions per language
 
-- Python: 2
+- Python: 4
 - C++: 1
 - Ruby: 1
 - C#: 0

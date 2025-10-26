@@ -1,10 +1,10 @@
 # Problems 601-700
 
-Total problems with at least one solution: **1**
+Total problems with at least one solution: **2**
 
 ## Solutions per language
 
-- Python: 1
+- Python: 2
 - Swift: 1
 - C#: 0
 - C++: 0

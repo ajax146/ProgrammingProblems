@@ -1,3 +1,10 @@
+// Problem 131A: cAPS lOCK
+// https://codeforces.com/contest/131/problem/A
+// Compiled with: g++ (Debian 12.2.0-14+deb12u1) 12.2.0
+// Linux version: Linux kernel 6.1.0-10-amd64
+// Submitted on: October 24th, 2025
+// Codeforces language used: C++23 (GCC 14-64, msys2)
+
 #include <iostream>
 #include <string>
 #include <algorithm>

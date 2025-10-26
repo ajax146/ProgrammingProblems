@@ -1,10 +1,10 @@
 # Problems 1-100
 
-Total problems with at least one solution: **6**
+Total problems with at least one solution: **15**
 
 ## Solutions per language
 
-- Python: 6
+- Python: 15
 - C#: 4
 - TypeScript: 4
 - Go: 3

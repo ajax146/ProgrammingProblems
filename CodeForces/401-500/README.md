@@ -1,10 +1,10 @@
 # Problems 401-500
 
-Total problems with at least one solution: **5**
+Total problems with at least one solution: **7**
 
 ## Solutions per language
 
-- Python: 3
+- Python: 5
 - Java: 2
 - PHP: 2
 - Go: 1

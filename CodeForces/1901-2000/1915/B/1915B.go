@@ -1,8 +1,15 @@
+// Problem 1915B: Not Quite Latin Square
+// https://codeforces.com/contest/1915/problem/B
+// Executed with: go version go1.19.8 linux/amd64
+// Linux version: Linux kernel 6.1.0-10-amd64
+// Submitted on: October 23rd, 2025
+// Codeforces language used: Go 1.22.2
+
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"strings"
 )
 
 func main() {

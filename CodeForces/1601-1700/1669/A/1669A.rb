@@ -7,7 +7,7 @@
 # 
 w = gets.to_i
 
-for counter in 1..w
+for _ in 1..w
     input = gets.to_i
     if input >= 1900
         puts "Division 1"

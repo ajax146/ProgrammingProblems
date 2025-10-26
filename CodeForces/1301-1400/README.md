@@ -7,6 +7,7 @@ Total problems with at least one solution: **4**
 - Go: 3
 - C#: 1
 - Python: 1
+- Swift: 1
 - TypeScript: 1
 - C++: 0
 - Java: 0
@@ -14,4 +15,3 @@ Total problems with at least one solution: **4**
 - Perl: 0
 - Ruby: 0
 - Rust: 0
-- Swift: 0

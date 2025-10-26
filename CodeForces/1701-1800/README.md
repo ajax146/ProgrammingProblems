@@ -9,9 +9,9 @@ Total problems with at least one solution: **4**
 - C++: 1
 - Java: 1
 - Rust: 1
+- Swift: 1
 - Go: 0
 - PHP: 0
 - Perl: 0
 - Ruby: 0
-- Swift: 0
 - TypeScript: 0

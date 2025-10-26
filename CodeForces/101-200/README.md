@@ -12,6 +12,6 @@ Total problems with at least one solution: **12**
 - Java: 3
 - TypeScript: 3
 - PHP: 2
+- Swift: 1
 - Perl: 0
 - Rust: 0
-- Swift: 0

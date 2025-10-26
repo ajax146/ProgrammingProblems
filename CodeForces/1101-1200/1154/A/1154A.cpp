@@ -13,7 +13,7 @@ using namespace std;
 int main() {
     vector<int> arr(4);
     for(int i = 0; i < 4; i++)
-        cin >> arr[i];  
+        cin >> arr[i];
 
     // a+b+c must be the largest value, since a,b,c are all positive
     // And since a+b+c - b+c = a, we can just subtract the other 3 in any order

@@ -6,12 +6,12 @@ Total problems with at least one solution: **12**
 
 - Python: 9
 - Go: 3
+- Java: 3
+- C#: 2
 - C++: 2
 - PHP: 2
 - Ruby: 2
 - TypeScript: 2
-- C#: 1
-- Java: 1
 - Perl: 0
 - Rust: 0
 - Swift: 0

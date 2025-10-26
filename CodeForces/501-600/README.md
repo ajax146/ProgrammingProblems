@@ -5,7 +5,7 @@ Total problems with at least one solution: **4**
 ## Solutions per language
 
 - C#: 2
-- Go: 1
+- Go: 2
 - Perl: 1
 - Python: 1
 - Ruby: 1

@@ -22,10 +22,6 @@ fi
 # Determine folder range
 start=$(( ((num - 1) / 100) * 100 + 1 ))
 end=$(( start + 99 ))
-if (( num >= 2001 )); then
-  start=2001
-  end=2101
-fi
 range="${start}-${end}"
 
 # Compute base path (e.g. 901-1000/953/B2)

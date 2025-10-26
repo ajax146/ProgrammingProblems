@@ -4,7 +4,7 @@ Total problems with at least one solution: **4**
 
 ## Solutions per language
 
-- Go: 2
+- Go: 3
 - C#: 1
 - Python: 1
 - TypeScript: 1

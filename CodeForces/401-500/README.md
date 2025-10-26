@@ -5,10 +5,10 @@ Total problems with at least one solution: **7**
 ## Solutions per language
 
 - Python: 5
+- Go: 2
 - Java: 2
 - PHP: 2
 - C++: 1
-- Go: 1
 - Rust: 1
 - C#: 0
 - Perl: 0

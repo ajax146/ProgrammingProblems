@@ -7,8 +7,8 @@ Total problems with at least one solution: **15**
 - Python: 15
 - Ruby: 7
 - C#: 4
+- Go: 4
 - TypeScript: 4
-- Go: 3
 - PHP: 3
 - C++: 2
 - Java: 2

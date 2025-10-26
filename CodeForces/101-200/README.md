@@ -10,8 +10,8 @@ Total problems with at least one solution: **12**
 - C++: 3
 - Go: 3
 - Java: 3
+- TypeScript: 3
 - PHP: 2
-- TypeScript: 2
 - Perl: 0
 - Rust: 0
 - Swift: 0

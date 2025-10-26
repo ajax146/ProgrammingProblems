@@ -5,8 +5,8 @@ Total problems with at least one solution: **15**
 ## Solutions per language
 
 - Python: 15
+- Ruby: 7
 - C#: 4
-- Ruby: 4
 - TypeScript: 4
 - Go: 3
 - PHP: 3

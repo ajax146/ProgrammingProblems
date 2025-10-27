@@ -11,9 +11,7 @@ use strict;
 use warnings;
 
 
-my $line = <STDIN>;
-chomp($line);
-my @arr = split(' ', $line);
+my @arr = split(' ', <STDIN> =~ s/\n$//r);
 
 my $k = $arr[0];
 my $n = $arr[1];

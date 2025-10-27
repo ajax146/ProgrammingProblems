@@ -8,10 +8,10 @@ Total problems with at least one solution: **6**
 - Swift: 2
 - C#: 1
 - Go: 1
+- Rust: 1
 - C++: 0
 - Java: 0
 - PHP: 0
 - Perl: 0
 - Ruby: 0
-- Rust: 0
 - TypeScript: 0

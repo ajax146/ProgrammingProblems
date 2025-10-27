@@ -5,12 +5,8 @@
 // Submitted on: October 22nd, 2025
 // Codeforces language used: Rust 1.89.0 (2024)
 
-use std::io;
-
 fn main() {
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).unwrap();
-    let w: i32 = input.trim().parse().unwrap();
+    let w: i32 = std::io::stdin().lines().next().unwrap().unwrap().trim().parse().unwrap();
 
     if w > 2 && w % 2 == 0 {
         println!("YES");

@@ -1,6 +1,6 @@
 # Problems 1901-2000
 
-Total problems with at least one solution: **5**
+Total problems with at least one solution: **6**
 
 ## Solutions per language
 
@@ -11,7 +11,7 @@ Total problems with at least one solution: **5**
 - Java: 1
 - Perl: 1
 - Rust: 1
+- Swift: 1
 - TypeScript: 1
 - C#: 0
 - Ruby: 0
-- Swift: 0

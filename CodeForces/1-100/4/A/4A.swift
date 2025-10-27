@@ -7,7 +7,7 @@
 
 import Foundation
 
-var w = Int(readLine() ?? "") ?? 0
+var w = Int(readLine()!)!
 
 if w > 2 && w % 2 == 0 {
     print("YES")

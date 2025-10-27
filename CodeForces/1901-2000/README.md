@@ -1,14 +1,14 @@
 # Problems 1901-2000
 
-Total problems with at least one solution: **6**
+Total problems with at least one solution: **7**
 
 ## Solutions per language
 
+- Java: 3
 - PHP: 3
 - C++: 2
 - Python: 2
 - Go: 1
-- Java: 1
 - Perl: 1
 - Rust: 1
 - Swift: 1

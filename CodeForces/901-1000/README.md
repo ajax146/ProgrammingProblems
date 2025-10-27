@@ -4,8 +4,8 @@ Total problems with at least one solution: **3**
 
 ## Solutions per language
 
+- C#: 3
 - Ruby: 2
-- C#: 1
 - C++: 1
 - PHP: 1
 - Rust: 1

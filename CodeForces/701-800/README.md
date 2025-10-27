@@ -5,8 +5,8 @@ Total problems with at least one solution: **6**
 ## Solutions per language
 
 - Python: 4
+- C#: 2
 - Swift: 2
-- C#: 1
 - Go: 1
 - Rust: 1
 - C++: 0

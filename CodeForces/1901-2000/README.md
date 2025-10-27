@@ -1,9 +1,10 @@
 # Problems 1901-2000
 
-Total problems with at least one solution: **4**
+Total problems with at least one solution: **5**
 
 ## Solutions per language
 
+- PHP: 3
 - C++: 2
 - Python: 2
 - Go: 1
@@ -11,7 +12,6 @@ Total problems with at least one solution: **4**
 - Rust: 1
 - TypeScript: 1
 - C#: 0
-- PHP: 0
 - Perl: 0
 - Ruby: 0
 - Swift: 0

@@ -14,4 +14,9 @@ Total problems with at least one solution: **15**
 - PHP: 3
 - Perl: 2
 - Rust: 2
+- Elixir: 1
+- Haskell: 1
+- Kotlin: 1
+- Lua: 1
+- R: 1
 - Swift: 1

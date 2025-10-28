@@ -15,3 +15,8 @@ Total problems with at least one solution: **9**
 - Swift: 1
 - TypeScript: 1
 - C#: 0
+- Elixir: 0
+- Haskell: 0
+- Kotlin: 0
+- Lua: 0
+- R: 0

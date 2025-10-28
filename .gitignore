@@ -4,7 +4,9 @@
 # Exclude compiled versions
 *.cpp_c
 *.cs_c
+*.hs_c
 *.java_c
+*.kt_c
 *.rs_c
 *.ts_c
 

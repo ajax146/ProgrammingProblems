@@ -8,9 +8,23 @@ Submitting as: GNU G++23 14.2 (64 bit, mysy2)
 Submit problem.cs  
 Submitting as: C# Mono 6.8
 
+# Elixir
+Unsupported on codeforces
+
+# Haskell
+Submit problem.hs  
+Submitting as: Haskell GHC 8.10.1
+
 # Go
 Submit problem.go  
 Submitting as: Go 1.22.2
+
+# Kotlin
+Submit problem.kt  
+Submitting as: Kotlin 2.2.0
+
+# Lua
+Unsupported on codeforces
 
 # Java
 Submit problem.java  
@@ -28,6 +42,9 @@ Submitting as: PHP 8.1.7
 # Python
 Submit problem.py  
 Submitting as: PyPy 3.10 (7.3.15, 64bit)
+
+# R
+Unsupported on codeforces
 
 # Ruby
 Submit problem.rb  

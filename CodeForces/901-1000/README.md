@@ -11,7 +11,12 @@ Total problems with at least one solution: **3**
 - Perl: 1
 - Rust: 1
 - Swift: 1
+- Elixir: 0
 - Go: 0
+- Haskell: 0
 - Java: 0
+- Kotlin: 0
+- Lua: 0
 - Python: 0
+- R: 0
 - TypeScript: 0

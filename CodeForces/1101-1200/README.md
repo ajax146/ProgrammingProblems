@@ -1,11 +1,12 @@
 # Problems 1101-1200
 
-Total problems with at least one solution: **1**
+Total problems with at least one solution: **2**
 
 ## Solutions per language
 
 - C++: 1
 - Python: 1
+- R: 1
 - Swift: 1
 - TypeScript: 1
 - C#: 0
@@ -17,6 +18,5 @@ Total problems with at least one solution: **1**
 - Lua: 0
 - PHP: 0
 - Perl: 0
-- R: 0
 - Ruby: 0
 - Rust: 0

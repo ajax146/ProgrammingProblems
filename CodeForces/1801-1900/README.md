@@ -1,19 +1,19 @@
 # Problems 1801-1900
 
-Total problems with at least one solution: **4**
+Total problems with at least one solution: **5**
 
 ## Solutions per language
 
 - Python: 2
 - Swift: 2
 - C#: 1
+- Kotlin: 1
 - TypeScript: 1
 - C++: 0
 - Elixir: 0
 - Go: 0
 - Haskell: 0
 - Java: 0
-- Kotlin: 0
 - Lua: 0
 - PHP: 0
 - Perl: 0

@@ -1,10 +1,11 @@
 # Problems 2001-2100
 
-Total problems with at least one solution: **3**
+Total problems with at least one solution: **4**
 
 ## Solutions per language
 
 - C#: 1
+- Kotlin: 1
 - Perl: 1
 - Ruby: 1
 - C++: 0
@@ -12,7 +13,6 @@ Total problems with at least one solution: **3**
 - Go: 0
 - Haskell: 0
 - Java: 0
-- Kotlin: 0
 - Lua: 0
 - PHP: 0
 - Python: 0

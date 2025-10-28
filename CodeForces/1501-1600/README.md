@@ -1,6 +1,6 @@
 # Problems 1501-1600
 
-Total problems with at least one solution: **6**
+Total problems with at least one solution: **7**
 
 ## Solutions per language
 
@@ -8,6 +8,7 @@ Total problems with at least one solution: **6**
 - Rust: 2
 - C#: 1
 - Java: 1
+- Lua: 1
 - Swift: 1
 - TypeScript: 1
 - C++: 0
@@ -15,7 +16,6 @@ Total problems with at least one solution: **6**
 - Go: 0
 - Haskell: 0
 - Kotlin: 0
-- Lua: 0
 - PHP: 0
 - Perl: 0
 - R: 0

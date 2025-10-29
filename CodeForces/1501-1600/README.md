@@ -1,9 +1,10 @@
 # Problems 1501-1600
 
-Total problems with at least one solution: **8**
+Total problems with at least one solution: **10**
 
 ## Solutions per language
 
+- C++: 2
 - Python: 2
 - Rust: 2
 - TypeScript: 2
@@ -11,7 +12,6 @@ Total problems with at least one solution: **8**
 - Java: 1
 - Lua: 1
 - Swift: 1
-- C++: 0
 - Elixir: 0
 - Go: 0
 - Haskell: 0

@@ -8,8 +8,8 @@ Total problems with at least one solution: **6**
 - Swift: 2
 - TypeScript: 2
 - C#: 1
+- C++: 1
 - Kotlin: 1
-- C++: 0
 - Elixir: 0
 - Go: 0
 - Haskell: 0

@@ -8,9 +8,9 @@ Total problems with at least one solution: **12**
 - C#: 4
 - C++: 4
 - Ruby: 4
+- TypeScript: 4
 - Go: 3
 - Java: 3
-- TypeScript: 3
 - PHP: 2
 - Rust: 2
 - Perl: 1

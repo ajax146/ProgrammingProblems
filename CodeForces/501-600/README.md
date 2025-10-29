@@ -1,6 +1,6 @@
 # Problems 501-600
 
-Total problems with at least one solution: **4**
+Total problems with at least one solution: **5**
 
 ## Solutions per language
 
@@ -10,6 +10,7 @@ Total problems with at least one solution: **4**
 - Perl: 1
 - Python: 1
 - Ruby: 1
+- TypeScript: 1
 - C++: 0
 - Elixir: 0
 - Haskell: 0
@@ -19,4 +20,3 @@ Total problems with at least one solution: **4**
 - R: 0
 - Rust: 0
 - Swift: 0
-- TypeScript: 0

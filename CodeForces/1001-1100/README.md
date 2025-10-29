@@ -1,11 +1,12 @@
 # Problems 1001-1100
 
-Total problems with at least one solution: **1**
+Total problems with at least one solution: **2**
 
 ## Solutions per language
 
 - C#: 1
 - PHP: 1
+- Perl: 1
 - TypeScript: 1
 - C++: 0
 - Elixir: 0
@@ -14,7 +15,6 @@ Total problems with at least one solution: **1**
 - Java: 0
 - Kotlin: 0
 - Lua: 0
-- Perl: 0
 - Python: 0
 - R: 0
 - Ruby: 0

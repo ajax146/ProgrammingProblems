@@ -10,6 +10,7 @@ Total problems with at least one solution: **10**
 - Ruby: 2
 - TypeScript: 2
 - Java: 1
+- Perl: 1
 - Swift: 1
 - C++: 0
 - Elixir: 0
@@ -17,6 +18,5 @@ Total problems with at least one solution: **10**
 - Kotlin: 0
 - Lua: 0
 - PHP: 0
-- Perl: 0
 - R: 0
 - Rust: 0

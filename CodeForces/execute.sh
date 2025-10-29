@@ -50,7 +50,7 @@ case "$lang" in
     elixir "./${path}/${problem}.ex"
     ;;
   hs|haskell)
-    ghc "./${path}/${problem}.hs" -o "./${path}/${problem}.hs_c" && \
+    ghc "./${path}/${problem}.hs" -o "./${path}/${problem}.hs_c" >/dev/null && \
     echo "READY" && \
     "./${path}/${problem}.hs_c" && \
     rm ./${path}/${problem}.hi && \

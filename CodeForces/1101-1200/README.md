@@ -1,16 +1,16 @@
 # Problems 1101-1200
 
-Total problems with at least one solution: **2**
+Total problems with at least one solution: **3**
 
 ## Solutions per language
 
 - C++: 1
+- Elixir: 1
 - Python: 1
 - R: 1
 - Swift: 1
 - TypeScript: 1
 - C#: 0
-- Elixir: 0
 - Go: 0
 - Haskell: 0
 - Java: 0

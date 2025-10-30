@@ -24,3 +24,6 @@ package.json
 
 # Ignore temp file
 temp
+
+# Cache build files
+CodeForces/cache

@@ -1,12 +1,4 @@
 <?php
-
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Executed with: PHP 8.2.29 (cli) (built: Jul  3 2025 16:16:05) (NTS)
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Written on: October 22nd, 2025
-// Codeforces language used: Cannot be submitted
-
 class Scanner {
     private $buffer = [];
 
@@ -61,13 +53,40 @@ class Scanner {
         return $this->nextIntArray($sorted);
     }
 }
+//Declare scanner
+$scanner = new Scanner();
 
-$sc = new Scanner();
-$w = $sc->nextInt();
+// One int
+$i = $scanner->nextInt();
+echo $i . "\n";
 
-if ($w > 2 && $w % 2 == 0) {
-    echo "YES\n";
-} else {
-    echo "NO\n";
+// One double
+$a = $scanner->nextDouble();
+echo $a . "\n";
+
+// One 64 bit int (long)
+$l = $scanner->nextLong();
+echo $l . "\n";
+
+// One word
+$w = $scanner->nextWord();
+echo $w . "\n";
+
+// One string/line
+$l2 = $scanner->nextString();
+echo $l2 . "\n";
+
+// Int array
+$ia = $scanner->nextIntArray(true);
+foreach ($ia as $x) {
+    echo $x . " ";
 }
+echo "\n";
+
+// 64 bit int array
+$la = $scanner->nextLongArray();
+foreach ($la as $x) {
+    echo $x . " ";
+}
+echo "\n";
 ?>

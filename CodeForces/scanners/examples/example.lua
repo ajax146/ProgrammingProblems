@@ -1,10 +1,3 @@
--- Problem 4A: Watermelon
--- https://codeforces.com/contest/4/problem/A
--- Executed with: Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio
--- Linux version: Linux kernel 6.17.0-6-generic
--- Written on: October 28th, 2025
--- Codeforces language used: Cannot be submitted
-
 Scanner = {}
 Scanner.__index = Scanner
 
@@ -77,11 +70,39 @@ function Scanner:nextLongArray(sorted)
     return self:nextIntArray(sorted)
 end
 
-local sc = Scanner:new()
-local w = sc:nextInt()
 
-if w > 2 and w % 2 == 0 then
-    print("YES")
-else
-    print("NO")
+local scanner = Scanner:new()
+
+-- One int
+local i = scanner:nextInt()
+print(i)
+
+-- One double
+local a = scanner:nextDouble()
+print(a)
+
+-- One 64 bit int (long)
+local l = scanner:nextLong()
+print(l)
+
+-- One word
+local w = scanner:nextWord()
+print(w)
+
+-- One string/line
+local l2 = scanner:nextString()
+print(l2)
+
+-- Int array
+local ia = scanner:nextIntArray(true)
+for _, x in ipairs(ia) do
+    io.write(x .. " ")
 end
+print()
+
+-- 64 bit int array
+local la = scanner:nextLongArray()
+for _, x in ipairs(la) do
+    io.write(x .. " ")
+end
+print()

@@ -1,10 +1,3 @@
-# Problem 4A: Watermelon
-# https://codeforces.com/contest/4/problem/A
-# Executed with: Elixir 1.18.3 (compiled with Erlang/OTP 27)
-# Linux version: Linux kernel 6.17.0-6-generic
-# Written on: October 28th, 2025
-# Codeforces language used: Cannot be submitted
-
 defmodule Scanner do
   # Start a new scanner process
   def start_link(_) do
@@ -49,6 +42,7 @@ defmodule Scanner do
   def nextInt, do: next_token() |> String.to_integer()
   def nextDouble, do: next_token() |> String.to_float()
   def nextLong, do: next_token() |> String.to_integer()
+  def nextWord, do: next_token()
 
   def nextString do
     buf = Agent.get(__MODULE__, & &1)
@@ -74,15 +68,4 @@ defmodule Scanner do
     arr = nextIntArray(sorted)
     arr
   end
-end
-
-
-{:ok, _} = Scanner.start_link(nil)
-
-w = Scanner.nextInt()
-
-if w > 2 and rem(w, 2) == 0 do
-  IO.puts("YES")
-else
-  IO.puts("NO")
 end

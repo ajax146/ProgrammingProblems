@@ -1,10 +1,3 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Compiled with: rustc 1.63.0
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Submitted on: October 22nd, 2025
-// Codeforces language used: Rust 1.89.0 (2024)
-
 use std::io::{self, BufRead};
 use std::str::FromStr;
 
@@ -89,13 +82,39 @@ impl<R: BufRead> Scanner<R> {
 }
 
 fn main() {
+    // Needed setup
     let stdin = io::stdin();
-    let mut sc = Scanner::new(stdin.lock());
 
-    let w = sc.nextInt();
-    if w > 2 && w % 2 == 0 {
-        println!("YES");
-    } else {
-        println!("NO");
-    }
+    // Declare the scanner
+    let mut scanner = Scanner::new(stdin.lock());
+
+    // One int
+    let i = scanner.nextInt();
+    println!("{}", i);
+
+    // One double
+    let a = scanner.nextDouble();
+    println!("{}", a);
+
+    // One 64 bit int (long)
+    let l = scanner.nextLong();
+    println!("{}", l);
+
+    // One word
+    let w = scanner.nextWord();
+    println!("{}", w);
+
+    // One string/line
+    let l2 = scanner.nextString();
+    println!("{}", l2);
+
+    // Int array
+    let ia = scanner.nextIntArray(true);
+    for x in ia { print!("{} ", x); }
+    println!();
+
+    // 64 bit int array
+    let la = scanner.nextLongArray(false);
+    for x in la { print!("{} ", x); }
+    println!();
 }

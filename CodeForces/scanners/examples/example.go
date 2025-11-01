@@ -1,9 +1,4 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Executed with: go version go1.19.8 linux/amd64
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Submitted on: October 21st, 2025
-// Codeforces language used: Go 1.22.2
+// Example usage of the scanner class in go.
 
 package main
 
@@ -120,12 +115,40 @@ func (s *Scanner) nextLongArray(sorted bool) []int64 {
 }
 
 func main() {
+	// Declare the scanner
 	scanner := NewScanner()
-	w := scanner.nextInt()
 
-	if w > 2 && w%2 == 0 {
-		fmt.Println("YES")
-	} else {
-		fmt.Println("NO")
+	// One int
+	i := scanner.nextInt()
+	fmt.Println(i)
+
+	// One double
+	a := scanner.nextDouble()
+	fmt.Println(a)
+
+	// One 64 bit int (long)
+	l := scanner.nextLong()
+	fmt.Println(l)
+
+	// One word
+	w := scanner.nextWord()
+	fmt.Println(w)
+
+	// One string/line
+	l2 := scanner.nextString()
+	fmt.Println(l2)
+
+	// Int array
+	ia := scanner.nextIntArray(true)
+	for _, x := range ia {
+		fmt.Printf("%d ", x)
 	}
+	fmt.Println()
+
+	// 64 bit int array
+	la := scanner.nextLongArray(false)
+	for _, x := range la {
+		fmt.Printf("%d ", x)
+	}
+	fmt.Println()
 }

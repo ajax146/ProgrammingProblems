@@ -1,12 +1,7 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Compiled with: g++ (Debian 12.2.0-14+deb12u1) 12.2.0
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Submitted on: October 22nd, 2025
-// Codeforces language used: C++23 (GCC 14-64, msys2)
+// Example usage of the scanner class in C++.
 
-#include <bits/stdc++.h>
 #include <iostream>
+#include <bits/stdc++.h>
 #include <string>
 using namespace std;
 
@@ -92,15 +87,40 @@ public:
 
 
 int main() {
+    // Setup needed
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
+    // Declare the scanner
     Scanner scanner;
-    int w = scanner.nextInt();
- 
-    if (w > 2 && w % 2 == 0) {
-        cout << "YES\n";
-    } else {
-        cout << "NO\n";
-    }
+
+    // One int
+    int i = scanner.nextInt();
+    cout << i << endl;
+
+    // One double
+    double a = scanner.nextDouble();
+    cout << a << endl;
+
+    // One 64 bit int (long)
+    long long l = scanner.nextLong();
+    cout << l << endl;
+
+    // One word
+    string w = scanner.nextWord();
+    cout << w << endl;
+
+    // One string/line
+    string l2 = scanner.nextString();
+    cout << l2 << endl;
+
+    // Int array
+    vector<int> ia = scanner.nextIntArray(true);
+    for (int x : ia) cout << x << ' ';
+    cout << endl;
+
+    // 64 bit int array
+    vector<long long> la = scanner.nextLongArray();
+    for (long long x : la) cout << x << ' ';
+    cout << endl;
 }

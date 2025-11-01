@@ -1,11 +1,3 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Compiled with: kotlinc-jvm 2.2.21 (JRE 25+36-Ubuntu-1)
-// Executed with: openjdk 25 2025-09-16
-// Linux version: Linux kernel 6.17.0-6-generic
-// Submitted on: October 28th, 2025
-// Codeforces language used: Kotlin 2.2.0
-
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.StringTokenizer
@@ -76,12 +68,40 @@ class Scanner {
 }
 
 fun main() {
-    val sc = Scanner()
-    val w = sc.nextInt()
+    // Declare the scanner
+    val scanner = Scanner()
 
-    if (w > 2 && w % 2 == 0) {
-        println("YES")
-    } else {
-        println("NO")
+    // One int
+    val i = scanner.nextInt()
+    println(i)
+
+    // One double
+    val a = scanner.nextDouble()
+    println(a)
+
+    // One 64 bit int (long)
+    val l = scanner.nextLong()
+    println(l)
+
+    // One word
+    val w = scanner.nextWord()
+    println(w)
+
+    // One string/line
+    val l2 = scanner.nextString()
+    println(l2)
+
+    // Int array
+    val ia = scanner.nextIntArray(true)
+    for (x in ia) {
+        print("$x ")
     }
+    println()
+
+    // 64 bit int array
+    val la = scanner.nextLongArray()
+    for (x in la) {
+        print("$x ")
+    }
+    println()
 }

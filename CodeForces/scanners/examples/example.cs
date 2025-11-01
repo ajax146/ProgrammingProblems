@@ -68,15 +68,41 @@ public class Scanner {
     }
 }
 
-class Program {
-    static void Main() {
-        var scanner = new Scanner();
-        int w = scanner.nextInt();
+public class Program {
+    public static void Main() {
+        // Declare the scanner
+        Scanner scanner = new Scanner();
 
-        if (w > 2 && w % 2 == 0) {
-            Console.WriteLine("YES");
-        } else {
-            Console.WriteLine("NO");
-        }
+        // One int
+        int i = scanner.nextInt();
+        Console.WriteLine(i);
+
+        // One double
+        double a = scanner.nextDouble();
+        Console.WriteLine(a);
+
+        // One 64 bit int (long)
+        long l = scanner.nextLong();
+        Console.WriteLine(l);
+
+        // One word
+        string w = scanner.nextWord();
+        Console.WriteLine(w);
+
+        // One string/line
+        string l2 = scanner.nextString();
+        Console.WriteLine(l2);
+
+        // Int array
+        List<int> ia = scanner.nextIntArray(true);
+        foreach (int x in ia)
+            Console.Write(x + " ");
+        Console.WriteLine();
+
+        // 64 bit int array
+        List<long> la = scanner.nextLongArray();
+        foreach (long x in la)
+            Console.Write(x + " ");
+        Console.WriteLine();
     }
 }

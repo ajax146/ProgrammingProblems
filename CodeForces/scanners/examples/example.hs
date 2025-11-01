@@ -1,10 +1,3 @@
--- Problem 4A: Watermelon
--- https://codeforces.com/contest/4/problem/A
--- Executed with: The Glorious Glasgow Haskell Compilation System, version 9.6.6
--- Linux version: Linux kernel 6.17.0-6-generic
--- Submitted on: October 28th, 2025
--- Codeforces language used: Haskell GHC 8.10.1
-
 import Data.IORef
 import Data.List
 import Control.Monad
@@ -85,8 +78,33 @@ nextLongArray sc sorted = do
 
 main :: IO ()
 main = do
+    -- Declare the scanner
     sc <- newScanner
-    w <- nextInt sc
-    if w > 2 && w `mod` 2 == 0
-        then putStrLn "YES"
-        else putStrLn "NO"
+
+    -- One int
+    i <- nextInt sc
+    print i
+
+    -- One double
+    a <- nextDouble sc
+    print a
+
+    -- One 64 bit int (long)
+    l <- nextLong sc
+    print l
+
+    -- One word
+    w <- nextWord sc
+    putStrLn w
+
+    -- One string/line
+    l2 <- nextString sc
+    putStrLn l2
+
+    -- Int array
+    ia <- nextIntArray sc True
+    putStrLn $ unwords (map show ia)
+
+    -- 64 bit int array
+    la <- nextLongArray sc False
+    putStrLn $ unwords (map show la)

@@ -1,10 +1,3 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Executed with: Swift version 6.2 (swift-6.2-RELEASE)
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Written on: October 22nd, 2025
-// Codeforces language used: Cannot be submitted
-
 import Foundation
 
 class Scanner {
@@ -61,11 +54,33 @@ class Scanner {
     }
 }
 
-let sc = Scanner()
-let w = sc.nextInt()
+// Init scanner
+let scanner = Scanner()
 
-if w > 2 && w % 2 == 0 {
-    print("YES")
-} else {
-    print("NO")
-}
+// One int
+let i = scanner.nextInt()
+print(i)
+
+// One double
+let a = scanner.nextDouble()
+print(a)
+
+// One 64 bit int (long)
+let l = scanner.nextLong()
+print(l)
+
+// One word
+let w = scanner.nextWord()
+print(w)
+
+// One string/line
+let l2 = scanner.nextString()
+print(l2)
+
+// Int array
+let ia = scanner.nextIntArray(sorted: true)
+print(ia.map { String($0) }.joined(separator: " "))
+
+// 64 bit int array
+let la = scanner.nextLongArray()
+print(la.map { String($0) }.joined(separator: " "))

@@ -1,25 +1,5 @@
-// Problem 4A: Watermelon
-// https://codeforces.com/contest/4/problem/A
-// Compiled with: openjdk 17.0.16 2025-07-15
-// Executed with: javac 17.0.16
-// Linux version: Linux kernel 6.1.0-10-amd64
-// Submitted on: October 21st, 2025
-// Codeforces language used: Java 21 64bit
-
 import java.io.*;
 import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner();
-        int w = sc.nextInt();
-        if (w > 2 && w % 2 == 0) {
-            System.out.println("YES");
-        }else {
-            System.out.println("NO");
-        }
-    }
-}
 
 class Scanner {
     private BufferedReader br;
@@ -95,5 +75,46 @@ class Scanner {
         long[] arr = arrList.stream().mapToLong(Long::longValue).toArray();
         if (sorted) Arrays.sort(arr);
         return arr;
+    }
+}
+
+public class example {
+    public static void main(String[] args) {
+        // Declare the scanner
+        Scanner scanner = new Scanner();
+
+        // One int
+        int i = scanner.nextInt();
+        System.out.println(i);
+
+        // One double
+        double a = scanner.nextDouble();
+        System.out.println(a);
+
+        // One 64 bit int (long)
+        long l = scanner.nextLong();
+        System.out.println(l);
+
+        // One word
+        String w = scanner.nextWord();
+        System.out.println(w);
+
+        // One string/line
+        String l2 = scanner.nextString();
+        System.out.println(l2);
+
+        // Int array
+        int[] ia = scanner.nextIntArray(true);
+        for (int x : ia) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+
+        // 64 bit int array
+        long[] la = scanner.nextLongArray(false);
+        for (long x : la) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
     }
 }

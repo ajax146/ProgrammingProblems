@@ -1,12 +1,3 @@
-# Problem 4A: Watermelon
-# https://codeforces.com/contest/4/problem/A
-# Executed with: perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-gnu-thread-multi
-# Linux version: Linux kernel 6.1.0-10-amd64
-# Submitted on: October 22nd, 2025
-# Codeforces language used: Perl 5.20.1
-
-#!/usr/bin/perl
-
 use strict;
 use warnings;
 
@@ -82,11 +73,33 @@ use warnings;
     }
 }
 
-my $sc = Scanner->new();
-my $w = $sc->nextInt();
+# Declare scanner
+my $scanner = Scanner->new();
 
-if ($w > 2 && $w % 2 == 0) {
-    print "YES\n";
-} else {
-    print "NO\n";
-}
+# One int
+my $i = $scanner->nextInt();
+print "$i\n";
+
+# One double
+my $a = $scanner->nextDouble();
+print "$a\n";
+
+# One 64 bit int (long)
+my $l = $scanner->nextLong();
+print "$l\n";
+
+# One word
+my $w = $scanner->nextWord();
+print "$w\n";
+
+# One string/line
+my $l2 = $scanner->nextString();
+print "$l2\n";
+
+# Int array
+my @ia = $scanner->nextIntArray(1);
+print join(" ", @ia), "\n";
+
+# 64 bit int array
+my @la = $scanner->nextLongArray();
+print join(" ", @la), "\n";

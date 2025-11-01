@@ -1,10 +1,3 @@
-# Problem 4A: Watermelon
-# https://codeforces.com/contest/4/problem/A
-# Executed with: Rscript (R) version 4.5.1 (2025-06-13)
-# Linux version: Linux kernel 6.17.0-6-generic
-# Written on: October 28th, 2025
-# Codeforces language used: Cannot be submitted
-
 Scanner <- setRefClass(
   "Scanner",
   fields = list(
@@ -67,11 +60,33 @@ Scanner <- setRefClass(
   )
 )
 
-sc <- Scanner$new()
-w <- sc$nextInt()
+# Init scanner
+scanner <- Scanner$new()
 
-if (w > 2 && w %% 2 == 0) {
-  cat("YES\n")
-} else {
-  cat("NO\n")
-}
+# One int
+i <- scanner$nextInt()
+cat(i, "\n")
+
+# One double
+a <- scanner$nextDouble()
+cat(a, "\n")
+
+# One 64 bit int (long)
+l <- scanner$nextLong()
+cat(l, "\n")
+
+# One word
+w <- scanner$nextWord()
+cat(w, "\n")
+
+# One string/line
+l2 <- scanner$nextString()
+cat(l2, "\n")
+
+# Int array
+ia <- scanner$nextIntArray(TRUE)
+cat(paste(ia, collapse=" "), "\n")
+
+# 64 bit int array
+la <- scanner$nextLongArray()
+cat(paste(la, collapse=" "), "\n")

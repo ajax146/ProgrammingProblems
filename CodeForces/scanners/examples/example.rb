@@ -1,10 +1,3 @@
-# Problem 4A: Watermelon
-# https://codeforces.com/contest/4/problem/A
-# Executed with: ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux-gnu]
-# Linux version: Linux kernel 6.1.0-10-amd64
-# Submitted on: October 22nd, 2025
-# Codeforces language used: Ruby 3.2.2
-
 class Scanner
   def initialize
     @buffer = []
@@ -38,7 +31,7 @@ class Scanner
 
   def nextWord
     refill
-    @buffer
+    @buffer.shift
   end
 
   def nextString
@@ -61,11 +54,33 @@ class Scanner
   end
 end
 
-sc = Scanner.new
-w = sc.nextInt
+# Init scanner
+scanner = Scanner.new
 
-if w > 2 && w.even?
-  puts "YES"
-else
-  puts "NO"
-end
+# One int
+i = scanner.nextInt
+puts i
+
+# One double
+a = scanner.nextDouble
+puts a
+
+# One 64 bit int (long)
+l = scanner.nextLong
+puts l
+
+# One word
+w = scanner.nextWord
+puts w
+
+# One string/line
+l2 = scanner.nextString
+puts l2
+
+# Int array
+ia = scanner.nextIntArray(true)
+puts ia.join(" ")
+
+# 64 bit int array
+la = scanner.nextLongArray
+puts la.join(" ")

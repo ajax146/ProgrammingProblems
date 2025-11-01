@@ -1,10 +1,3 @@
-# Problem 4A: Watermelon
-# https://codeforces.com/contest/4/problem/A
-# Executed with: Python 3.11.2
-# Linux version: Linux kernel 6.1.0-10-amd64
-# Submitted on: October 21st, 2025
-# Codeforces language used: PyPy 3.10 (7.3.15, 64bit)
-
 import sys
 
 class Scanner:
@@ -70,10 +63,33 @@ class Scanner:
             arr.sort()
         return arr
 
+# Declare scanner
 scanner = Scanner()
-w = scanner.nextInt()
 
-if w > 2 and w % 2 == 0:
-    print("YES")
-else:
-    print("NO")
+# One int
+i = scanner.nextInt()
+print(i)
+
+# One double
+a = scanner.nextDouble()
+print(a)
+
+# One 64 bit int (long)
+l = scanner.nextLong()
+print(l)
+
+# One word
+w = scanner.nextWord()
+print(w)
+
+# One string/line
+l2 = scanner.nextString()
+print(l2)
+
+# Int array
+ia = scanner.nextIntArray(True)
+print(*ia)
+
+# 64 bit int array
+la = scanner.nextLongArray()
+print(*la)

@@ -1,11 +1,11 @@
 # Problems 701-800
 
-Total problems with at least one solution: **6**
+Total problems with at least one solution: **7**
 
 ## Solutions per language
 
 - Python: 4
-- C#: 2
+- C#: 3
 - Swift: 2
 - C++: 1
 - Go: 1

@@ -12,8 +12,8 @@ Total problems with at least one solution: **15**
 - C++: 3
 - Java: 3
 - PHP: 3
+- Rust: 3
 - Perl: 2
-- Rust: 2
 - Elixir: 1
 - Haskell: 1
 - Kotlin: 1

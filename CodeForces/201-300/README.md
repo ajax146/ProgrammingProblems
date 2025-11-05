@@ -6,11 +6,12 @@ Total problems with at least one solution: **11**
 
 - Python: 8
 - C#: 3
+- Ruby: 3
 - TypeScript: 3
 - Go: 2
-- Ruby: 2
 - Java: 1
 - Perl: 1
+- Rust: 1
 - Swift: 1
 - C++: 0
 - Elixir: 0
@@ -19,4 +20,3 @@ Total problems with at least one solution: **11**
 - Lua: 0
 - PHP: 0
 - R: 0
-- Rust: 0

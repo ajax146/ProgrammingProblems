@@ -1,9 +1,10 @@
 # Problems 1701-1800
 
-Total problems with at least one solution: **8**
+Total problems with at least one solution: **9**
 
 ## Solutions per language
 
+- Swift: 3
 - Python: 2
 - R: 2
 - Rust: 2
@@ -13,7 +14,6 @@ Total problems with at least one solution: **8**
 - Java: 1
 - Lua: 1
 - Perl: 1
-- Swift: 1
 - Go: 0
 - Haskell: 0
 - Kotlin: 0

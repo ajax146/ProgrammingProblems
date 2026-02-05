@@ -9,11 +9,11 @@ Total problems with at least one solution: **7**
 - Swift: 2
 - C++: 1
 - Go: 1
+- Java: 1
 - PHP: 1
 - Rust: 1
 - Elixir: 0
 - Haskell: 0
-- Java: 0
 - Kotlin: 0
 - Lua: 0
 - Perl: 0

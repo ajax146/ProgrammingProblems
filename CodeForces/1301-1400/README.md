@@ -1,11 +1,11 @@
 # Problems 1301-1400
 
-Total problems with at least one solution: **9**
+Total problems with at least one solution: **10**
 
 ## Solutions per language
 
+- C#: 3
 - Go: 3
-- C#: 2
 - TypeScript: 2
 - C++: 1
 - Elixir: 1

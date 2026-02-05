@@ -4,7 +4,7 @@ Total problems with at least one solution: **6**
 
 ## Solutions per language
 
-- C#: 2
+- C#: 3
 - Go: 2
 - PHP: 1
 - Perl: 1

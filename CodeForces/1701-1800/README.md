@@ -1,14 +1,14 @@
 # Problems 1701-1800
 
-Total problems with at least one solution: **9**
+Total problems with at least one solution: **10**
 
 ## Solutions per language
 
 - Swift: 3
+- C#: 2
 - Python: 2
 - R: 2
 - Rust: 2
-- C#: 1
 - C++: 1
 - Elixir: 1
 - Java: 1

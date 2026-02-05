@@ -1,5 +1,3 @@
-// Example usage of the scanner class in C++.
-
 #include <iostream>
 #include <bits/stdc++.h>
 #include <string>

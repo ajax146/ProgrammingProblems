@@ -1,3 +1,11 @@
+// Problem 450A: Jzzhu and Children
+// https://codeforces.com/contest/450/problem/A
+// Compiled with: openjdk 25.0.2 2026-01-20
+// Executed with: javac 25.0.2
+// Linux version: Linux kernel: 6.17.0-12-generic
+// Submitted on: February 4th, 2026
+// Codeforces language used: Java 21 64bit
+
 import java.io.*;
 import java.util.*;
 
@@ -5,40 +13,20 @@ public class Main {
     public static void main(String[] args) {
         // Declare the scanner
         Scanner scanner = new Scanner();
-
-        // One int
-        int i = scanner.nextInt();
-        System.out.println(i);
-
-        // One double
-        double a = scanner.nextDouble();
-        System.out.println(a);
-
-        // One 64 bit int (long)
-        long l = scanner.nextLong();
-        System.out.println(l);
-
-        // One word
-        String w = scanner.nextWord();
-        System.out.println(w);
-
-        // One string/line
-        String l2 = scanner.nextString();
-        System.out.println(l2);
-
-        // Int array
-        int[] ia = scanner.nextIntArray(true);
-        for (int x : ia) {
-            System.out.print(x + " ");
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int[] a = scanner.nextIntArray(false);
+        int max_index = 0;
+        int max_val = 0;
+        for (int i = 0; i < n; i++) {
+            int temp = (int) Math.ceil((double)a[i] / (double)m);
+            if (temp >= max_val) {
+                max_index = i;
+                max_val = temp;
+            }
         }
-        System.out.println();
+        System.out.println(max_index+1);
 
-        // 64 bit int array
-        long[] la = scanner.nextLongArray(false);
-        for (long x : la) {
-            System.out.print(x + " ");
-        }
-        System.out.println();
     }
 }
 
@@ -118,4 +106,3 @@ class Scanner {
         return arr;
     }
 }
-

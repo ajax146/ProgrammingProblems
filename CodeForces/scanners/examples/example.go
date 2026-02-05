@@ -1,5 +1,3 @@
-// Example usage of the scanner class in go.
-
 package main
 
 import (

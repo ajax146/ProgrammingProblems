@@ -1,3 +1,11 @@
+// Problem 474B: Worms
+// https://codeforces.com/contest/474/problem/B
+// Compiled with: openjdk 25.0.2 2026-01-20
+// Executed with: javac 25.0.2
+// Linux version: Linux kernel: 6.17.0-12-generic
+// Submitted on: February 4th, 2026
+// Codeforces language used: Java 21 64bit
+
 import java.io.*;
 import java.util.*;
 
@@ -5,40 +13,33 @@ public class Main {
     public static void main(String[] args) {
         // Declare the scanner
         Scanner scanner = new Scanner();
-
-        // One int
-        int i = scanner.nextInt();
-        System.out.println(i);
-
-        // One double
-        double a = scanner.nextDouble();
-        System.out.println(a);
-
-        // One 64 bit int (long)
-        long l = scanner.nextLong();
-        System.out.println(l);
-
-        // One word
-        String w = scanner.nextWord();
-        System.out.println(w);
-
-        // One string/line
-        String l2 = scanner.nextString();
-        System.out.println(l2);
-
-        // Int array
-        int[] ia = scanner.nextIntArray(true);
-        for (int x : ia) {
-            System.out.print(x + " ");
+        int n = scanner.nextInt();
+        int[] a = scanner.nextIntArray(false);
+        for (int i = 1; i < n; i ++) {
+            int temp = a[i];
+            a[i] = temp + a[i-1];
         }
-        System.out.println();
-
-        // 64 bit int array
-        long[] la = scanner.nextLongArray(false);
-        for (long x : la) {
-            System.out.print(x + " ");
+        int m = scanner.nextInt();
+        for (int i = 0; i < m; i++) {
+            int target = scanner.nextInt();
+            int left = 0;
+            int right = n;
+            while(true){
+                int middle = right - ((right-left)/2);
+                if (middle == right) {
+                    break;
+                } else if (a[middle] > target) {
+                    right = middle;
+                } else {
+                    left = middle;
+                }
+            }
+            if (a[left] >= target) {
+                System.out.println(left+1);
+            } else {
+                System.out.println(right+1);
+            }
         }
-        System.out.println();
     }
 }
 

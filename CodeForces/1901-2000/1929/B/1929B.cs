@@ -1,3 +1,10 @@
+// Problem 1929B: Sasha and the Drawing
+// https://codeforces.com/contest/1929/problem/B
+// Compiled with: Mono JIT compiler version 6.12.0.199 (tarball Fri May  2 12:22:51 UTC 2025)
+// Linux version: Linux kernel: 6.17.0-12-generic
+// Submitted on: February 4th, 2026
+// Codeforces language used: C# Mono 6.8
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,36 +73,17 @@ public class Program {
         // Declare the scanner
         Scanner scanner = new Scanner();
 
-        // One int
-        int i = scanner.nextInt();
-        Console.WriteLine(i);
+        int t = scanner.nextInt();
+        for (int i = 0; i < t; i++) {
+            int n = scanner.nextInt();
+            int k = scanner.nextInt();
+            int max_diagonals = 4 * n - 2;
+            if (k <= max_diagonals-2) {
+                Console.WriteLine(Math.Ceiling(k/2.0));
+            } else {
+                Console.WriteLine(Math.Ceiling((max_diagonals-2)/2.0) + (2-(max_diagonals-k)));
+            }
+        }
 
-        // One double
-        double a = scanner.nextDouble();
-        Console.WriteLine(a);
-
-        // One 64 bit int (long)
-        long l = scanner.nextLong();
-        Console.WriteLine(l);
-
-        // One word
-        string w = scanner.nextWord();
-        Console.WriteLine(w);
-
-        // One string/line
-        string l2 = scanner.nextString();
-        Console.WriteLine(l2);
-
-        // Int array
-        List<int> ia = scanner.nextIntArray(true);
-        foreach (int x in ia)
-            Console.Write(x + " ");
-        Console.WriteLine();
-
-        // 64 bit int array
-        List<long> la = scanner.nextLongArray();
-        foreach (long x in la)
-            Console.Write(x + " ");
-        Console.WriteLine();
     }
 }

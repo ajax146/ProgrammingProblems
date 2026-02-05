@@ -18,6 +18,10 @@ cleanup() {
   mv "./${path}/Main.class" "./${path}/${problem}.java_c" 2>/dev/null
   mv "./${path}/${problem}.jar" "./${path}/${problem}.kt_c" 2>/dev/null
   mv "./${path}/${problem}.js" "./${path}/${problem}.ts_c" 2>/dev/null
+
+  # Clear any extra classes
+  rm -f "./${path}/*.class" 2>/dev/null
+  
 }
 trap cleanup EXIT SIGINT SIGTERM ERR
 

@@ -1,3 +1,11 @@
+// Problem 705A: Hulk
+// https://codeforces.com/contest/705/problem/A
+// Compiled with: openjdk 25.0.2 2026-01-20
+// Executed with: javac 25.0.2
+// Linux version: Linux kernel: 6.17.0-12-generic
+// Submitted on: February 4th, 2026
+// Codeforces language used: Java 21 64bit
+
 import java.io.*;
 import java.util.*;
 
@@ -5,40 +13,21 @@ public class Main {
     public static void main(String[] args) {
         // Declare the scanner
         Scanner scanner = new Scanner();
+        int n = scanner.nextInt();
 
-        // One int
-        int i = scanner.nextInt();
-        System.out.println(i);
+        System.out.print("I hate ");
+        int index = 1;
 
-        // One double
-        double a = scanner.nextDouble();
-        System.out.println(a);
-
-        // One 64 bit int (long)
-        long l = scanner.nextLong();
-        System.out.println(l);
-
-        // One word
-        String w = scanner.nextWord();
-        System.out.println(w);
-
-        // One string/line
-        String l2 = scanner.nextString();
-        System.out.println(l2);
-
-        // Int array
-        int[] ia = scanner.nextIntArray(true);
-        for (int x : ia) {
-            System.out.print(x + " ");
+        while (index < n) {
+            if (index % 2 == 0) {
+                System.out.print("that I hate ");
+            } else {
+                System.out.print("that I love ");
+            }
+            index += 1;
         }
-        System.out.println();
 
-        // 64 bit int array
-        long[] la = scanner.nextLongArray(false);
-        for (long x : la) {
-            System.out.print(x + " ");
-        }
-        System.out.println();
+        System.out.println("it");
     }
 }
 
